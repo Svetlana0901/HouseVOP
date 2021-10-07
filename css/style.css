@@ -57,6 +57,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 /*===============================================================*/
+@font-face {
+	font-family: 'Conv_Post No Bills Jaffna SemiBold';
+	src: url('../fonts/Post No Bills Jaffna SemiBold.eot');
+	src: local('☺'), url('../fonts/Post No Bills Jaffna SemiBold.woff') format('woff'),
+	url('../fonts/Post No Bills Jaffna SemiBold.ttf') format('truetype'),
+	url('../fonts/Post No Bills Jaffna SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*===============================================================*/
 html {
 	scroll-behavior: smooth;
 }
@@ -128,7 +138,7 @@ a {
 	display: inline-block;
 }
 .logo__top {
-	font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+	font-family: 'Conv_Post No Bills Jaffna SemiBold', sans-serif;
 	font-size: 36px;
 	font-weight: 600;
 }
