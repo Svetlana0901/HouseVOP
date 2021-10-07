@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?329mc2');
+  src:  url('../fonts/icons.eot?329mc2#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?329mc2') format('truetype'),
+    url('../fonts/icons.woff?329mc2') format('woff'),
+    url('../fonts/icons.svg?329mc2#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-top-map:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-top-mouse:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-top-phone:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-instagram:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-vk:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-youtube:before {
+  content: "\e906";
+  color: #fff;
+}
